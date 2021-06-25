@@ -29,7 +29,7 @@ export function NewRoom() {
       authorId: user?.id,
     });
 
-    history.push(`/rooms/${firebaseRoom.key}`);
+    history.push(`/admin/rooms/${firebaseRoom.key}`);
   }
 
   return (
@@ -43,6 +43,12 @@ export function NewRoom() {
       <main>
         <div className="main-content">
           <img src={logoImg} alt="Letmeask Logo" />
+          <img
+            src={user?.avatar}
+            alt="Foto do admin"
+            className="admin-picture"
+          />
+          <h3>{user?.name}</h3>
           <h2>Criar uma nova sala</h2>
           <form onSubmit={handleCreateRoom}>
             <input
