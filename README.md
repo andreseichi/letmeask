@@ -14,7 +14,7 @@
  <a href="#deployment">Deployment</a>
 </p>
 
-<img src="https://github.com/andreseichi/letmeask/blob/mater/src/assets/images/screenshot.png">
+<img src="https://github.com/andreseichi/letmeask/blob/master/src/assets/images/screenshot.png">
 
 ## Techs
 
