@@ -15,6 +15,7 @@
 </p>
 
 <img src="https://github.com/andreseichi/letmeask/blob/master/src/assets/images/screenshot.png">
+<img src="https://github.com/andreseichi/letmeask/blob/master/src/assets/images/screenshot2.png">
 
 ## Techs
 
